@@ -1,27 +1,28 @@
-# TesteFmxFront
+# Teste FMX - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+Essa aplicação foi construida como forma de prova técnica para empresa FMX para consumir a [API](https://github.com/BGimenez/teste-fmx-back) criada.
+Foi utilizado uma estrutura de aplicação simples, pensando em uma arquitetura monolítica.
 
-## Development server
+Nela, foi utilizado o framework Angular(16).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pré-requisitos para a execução da API
+Para executar a API é necessário ter os seguintes programas instalados na máquina:
+* Node 20+
+* Npm 9.6.7
+* Angular 16+
+* Angular-CLI 16+
 
-## Code scaffolding
+## Executando o projeto
+Para a execução da aplicação , dever-se-á seguir os seguintes passos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Executar a API conforme [orientação](https://github.com/BGimenez/teste-fmx-back/blob/main/README.md)
+2. Abrir o código fonte na IDE de sua preferência;
+3. Abrir o terminal, na pasta raiz do projeto, e executar o comando `npm ci` ou `npm install`;
+  
+      Obs.: Esse processo poderá demorar um pouco.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Logo após, executar o comando abaixo:
+    
+    `ng serve`
+    
+5. Acessar a aplicação através da URL: `http://localhost:4200/`
